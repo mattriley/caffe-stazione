@@ -1,10 +1,49 @@
 body {
     margin: 0;
-    /* font-size: 18px; */
-    font-size: 24px;
     text-align: center; 
     font-family: 'Roboto Condensed'
 }
+
+html, body {
+    margin: 0;
+    font-size: 18px;
+}
+
+html, body, #app, #container {
+    height: 100%;
+    min-height: 100%;
+}
+
+#container {
+    position: relative;
+    height: auto !important;
+}
+
+#header {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 1rem;
+    background-color: rgb(28, 52, 144);
+}
+
+#content {
+    width: 600px;
+    margin: 0 auto; /* centered */
+    padding-bottom: 3rem; /* allow room for footer */
+    text-align: center;
+}
+
+#footer {
+    position: absolute;
+    width: 100%;
+    bottom: 0; /* stick to bottom */
+}
+
+#footer a, a:visited {
+    color: white;
+}
+
 
 a, a:visited {
     color: blue;
