@@ -17,11 +17,13 @@ html, body, #app, #container {
     width: 100%;
 }
 
+a, a:visited {
+    color: white;
+}
+
 #container {
-    /* width: 100%; */
     position: relative; 
     height: auto !important;  
-    /* padding-bottom: 3rem; */
 }
 
 #header {
@@ -34,13 +36,11 @@ html, body, #app, #container {
     background-repeat: no-repeat;
     background-repeat: repeat-x;
     background-color: white;
-    padding-bottom: 3rem; /* allow room for footer */
-    height: 600px;    
-    box-sizing: border-box;
-    padding: 1rem;
     border-top: solid 4px white;
     border-bottom: solid 4px white;
-    
+    height: 600px;    
+    padding: 1rem;
+    box-sizing: border-box;
 }
 
 #footer {
@@ -49,42 +49,21 @@ html, body, #app, #container {
     bottom: 0 !important; /* stick to bottom */
 }
 
-#footer a, a:visited {
-    color: white;
-}
-
-
-.collage img {
-
-    display: inline-block;
-}
-
-
-
 .overlay-content {
-    padding: 1rem;
     width: 600px;
     margin: 0 auto;
     background-color: rgba(0,0,0,0.6);
     border-radius: 1rem;
-    line-height: 1.8rem;
-    /* margin-bottom: 3rem; */
     color: white;
     text-align: center;
+    line-height: 1.8rem;
     font-size: 1.2rem;
-    /* overflow: scroll; */
-}
-
-#content a, a:visited {
-    color: white;
+    padding: 1rem;
 }
 
 hr {
     width: 70%;
 }
-
-
-
   
 @media screen and (max-device-width: 600px) {
 
