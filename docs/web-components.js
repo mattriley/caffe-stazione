@@ -17,7 +17,6 @@ class StazioneHeader extends HTMLElement {
         img.src = 'https://caffestazione.com.au/logo-white-on-blue.jpg';
         img.alt = 'Caffe Stazione';
         header.appendChild(img);
-
         shadow.appendChild(header);
     }
 }
