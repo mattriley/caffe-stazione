@@ -12,12 +12,13 @@ class StazioneHeader extends HTMLElement {
         styles.setAttribute('href', 'https://caffestazione.com.au/web-components.css');
         shadow.appendChild(styles);
 
-        const stazioneHeader = document.createElement('header');
+        const header = document.createElement('header');
         const img = document.createElement('img');
         img.src = 'https://caffestazione.com.au/logo-white-on-blue.jpg';
         img.alt = 'Caffe Stazione';
+        header.appendChild(img);
 
-        shadow.appendChild(stazioneHeader);
+        shadow.appendChild(header);
     }
 }
 
