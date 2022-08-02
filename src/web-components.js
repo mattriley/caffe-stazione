@@ -1,7 +1,8 @@
 const compose = require('./compose');
 
-const { modules } = compose();
-const { webComponents } = modules;
+const composition = compose();
+const { webComponents } = composition.modules;
+window.stazioneWebComponents = composition;
 
 const fonts = document.createElement('link');
 fonts.href = 'https://fonts.googleapis.com/css?family=Roboto+Condensed|Shadows+Into+Light';
