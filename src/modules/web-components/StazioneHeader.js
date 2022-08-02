@@ -4,12 +4,12 @@ module.exports = () => {
 
         constructor() {
             super();
-            this.attachShadow({ mode: 'open' });
         }
 
         connectedCallback() {
+            const shadow = this.attachShadow({ mode: 'open' });
             const styles = document.createElement('style');
-            this.shadowRoot.appendChild(styles);
+            shadow.appendChild(styles);
 
             styles.innerHTML = `
 header {
@@ -22,7 +22,7 @@ header {
             img.src = 'https://caffestazione.com.au/logo-white-on-blue.jpg';
             img.alt = 'Caffe Stazione';
             header.appendChild(img);
-            this.shadowRoot.appendChild(header);
+            shadow.appendChild(header);
         }
     }
 
