@@ -24,7 +24,7 @@
     },
     "dependencies": {
         "@swc/helpers": "^0.4.3",
-        "module-composer": "^0.56.0"
+        "module-composer": "^0.59.0"
     },
     "devDependencies": {
         "cloc": "^2.10.0",
@@ -33,7 +33,7 @@
         "husky": "^8.0.1",
         "module-indexgen": "^0.15.2",
         "parcel": "^2.6.2",
-        "task-library": "^0.43.0"
+        "task-library": "^0.50.0"
     },
     "targets": {
         "webComponents": {
