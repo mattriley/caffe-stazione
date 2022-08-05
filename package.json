@@ -31,9 +31,9 @@
         "doctoc": "^2.2.0",
         "eslint": "^8.21.0",
         "husky": "^8.0.1",
-        "module-indexgen": "^0.15.2",
-        "parcel": "^2.6.2",
-        "task-library": "^0.50.0"
+        "module-indexgen": "^0.18.0",
+        "parcel": "^2.7.0",
+        "task-library": "^0.71.0"
     },
     "targets": {
         "webComponents": {
