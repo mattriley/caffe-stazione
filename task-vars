@@ -2,7 +2,8 @@
 
 export DISPLAY_NAME="Caffe Stazione"
 export WEB_HOST_NAME="caffestazione.com.au"
-export PARCEL_OPTIONS="--target webComponents --target spa"
+export PARCEL_OPTIONS="--target webComponents --target default"
+export DIST_FLATTEN="true"
 
 export COV_BRANCHES=0
 export COV_LINES=0

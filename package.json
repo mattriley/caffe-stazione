@@ -35,7 +35,7 @@
         "module-indexgen": "^0.18.0",
         "parcel": "^2.7.0",
         "process": "^0.11.10",
-        "task-library": "^0.73.0"
+        "task-library": "^0.76.0"
     },
     "targets": {
         "spa": {
