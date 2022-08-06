@@ -1,5 +1,5 @@
-import process from 'process';
+/* eslint-disable no-undef */
 
-export default {
+module.exports = {
     mixpanelToken: process.env.MIXPANEL_TOKEN
 };

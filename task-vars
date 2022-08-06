@@ -8,3 +8,7 @@ export COV_BRANCHES=0
 export COV_LINES=0
 export COV_FUNCTIONS=0
 export COV_STATEMENTS=0
+
+# This project
+
+export MIXPANEL_TOKEN="6871a18d371683daa377180e39c625ca"
