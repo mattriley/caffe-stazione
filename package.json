@@ -24,6 +24,7 @@
     },
     "dependencies": {
         "@swc/helpers": "^0.4.3",
+        "mixpanel-browser": "^2.45.0",
         "module-composer": "^0.59.0"
     },
     "devDependencies": {
@@ -33,9 +34,13 @@
         "husky": "^8.0.1",
         "module-indexgen": "^0.18.0",
         "parcel": "^2.7.0",
-        "task-library": "^0.71.0"
+        "process": "^0.11.10",
+        "task-library": "^0.73.0"
     },
     "targets": {
+        "spa": {
+            "source": "./src/index.html"
+        },
         "webComponents": {
             "source": "./src/web-components.js",
             "includeNodeModules": true,

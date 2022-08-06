@@ -31,7 +31,7 @@ a, a:visited {
 }
 
 #content {
-    background-image: url(collage.png);
+    background-image: url(../static/collage.png);
     background-position: center top;
     background-repeat: no-repeat;
     background-repeat: repeat-x;
