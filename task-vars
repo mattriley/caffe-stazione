@@ -2,6 +2,7 @@
 
 export DISPLAY_NAME="Caffe Stazione"
 export WEB_HOST_NAME="caffestazione.com.au"
+export INDEX_HTML_DESCRIPTION="An Italian Caffe catering for all needs including breakfast and lunch options. Caffe Stazione's Pizza is genuine Italian style served by the slice and possibly the best in Melbourne. There are healthy, Gluten Free options and salads, not to mention a large cake and sweet display all filled with house made delicate cakes, sweets, pastries and biscuits."
 export PARCEL_OPTIONS="--target webComponents --target spa"
 export DIST_FLATTEN="true"
 
