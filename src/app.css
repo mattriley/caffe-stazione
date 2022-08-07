@@ -64,7 +64,15 @@ a, a:visited {
 hr {
     width: 70%;
 }
-  
+
+.hours {
+    margin: 0 0.5rem;
+}
+
+.days {
+    margin-left: 0.5rem;
+}
+
 @media screen and (max-device-width: 600px) {
 
     .overlay-content {

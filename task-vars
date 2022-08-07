@@ -13,4 +13,13 @@ export COV_STATEMENTS=0
 
 # This project
 
+export ADDRESS_LINE_1="171-175 Maroondah Hwy"
+export ADDRESS_LINE_2="Ringwood, VIC, Australia 3134"
+export PHONE="(03) 8845 9108"
+export EMAIL="stazionecaffe@gmail.com"
+export CATERING_URL="https://catering.caffestazione.com.au"
+export MON_TO_FRI_HOURS="7—4"
+export SAT_HOURS="8—4"
+export SUN_HOURS="9—4"
+
 export MIXPANEL_TOKEN="6871a18d371683daa377180e39c625ca"
