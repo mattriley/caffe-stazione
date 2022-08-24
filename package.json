@@ -1,16 +1,16 @@
 {
-    "name": "stazione-home",
+    "name": "caffe-stazione",
     "version": "0.1.0",
     "description": "",
-    "homepage": "https://github.com/mattriley/stazione-home",
-    "repository": "github:mattriley/stazione-home",
+    "homepage": "https://github.com/mattriley/caffe-stazione",
+    "repository": "github:mattriley/caffe-stazione",
     "author": {
         "name": "Matt Riley",
         "email": "m@ttriley.dev",
         "url": "https://github.com/mattriley"
     },
     "bugs": {
-        "url": "https://github.com/mattriley/stazione-home/issues",
+        "url": "https://github.com/mattriley/caffe-stazione/issues",
         "email": "m@ttriley.dev"
     },
     "private": true,
