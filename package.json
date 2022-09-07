@@ -23,22 +23,22 @@
         "test": "npx task test"
     },
     "dependencies": {
-        "@swc/helpers": "^0.4.9",
+        "@swc/helpers": "^0.4.11",
         "mixpanel-browser": "^2.45.0",
-        "module-composer": "^0.60.0"
+        "module-composer": "^0.61.0"
     },
     "devDependencies": {
         "cloc": "^2.10.0",
         "doctoc": "^2.2.0",
         "ejs": "^3.1.8",
-        "eslint": "^8.22.0",
+        "eslint": "^8.23.0",
         "eslint-plugin-import": "^2.26.0",
         "husky": "^8.0.1",
-        "module-indexgen": "^0.18.0",
-        "npm-check-updates": "^16.0.5",
+        "module-indexgen": "^0.19.0",
+        "npm-check-updates": "^16.1.0",
         "parcel": "^2.7.0",
         "process": "^0.11.10",
-        "task-library": "^0.129.0",
+        "task-library": "^0.169.0",
         "testing": "file:./testing"
     },
     "targets": {
