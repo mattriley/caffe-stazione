@@ -1,7 +1,7 @@
 {
     "name": "caffe-stazione",
     "version": "0.1.0",
-    "description": "",
+    "description": "Caffe Stazione home page.",
     "homepage": "https://github.com/mattriley/caffe-stazione",
     "repository": "github:mattriley/caffe-stazione",
     "author": {
