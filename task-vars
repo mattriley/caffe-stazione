@@ -5,17 +5,17 @@ export INDEX_HTML_DESCRIPTION="An Italian Caffe catering for all needs including
 export PARCEL_OPTIONS="--target webComponents --target spa"
 export DIST_FLATTEN="true"
 
-export COV_BRANCHES=0
-export COV_LINES=0
-export COV_FUNCTIONS=0
-export COV_STATEMENTS=0
+export COV_BRANCHES="0"
+export COV_LINES="0"
+export COV_FUNCTIONS="0"
+export COV_STATEMENTS="0"
 
 # This project
 
 export ADDRESS_LINE_1="171-175 Maroondah Hwy"
 export ADDRESS_LINE_2="Ringwood, VIC, Australia 3134"
 export PHONE="(03) 8845 9108"
-export EMAIL="stazionecaffe@gmail.com"
+export EMAIL="ciao@caffestazione.com.au"
 export CATERING_URL="https://catering.caffestazione.com.au"
 export MON_TO_FRI_HOURS="7—4"
 export SAT_HOURS="8—4"
