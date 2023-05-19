@@ -19,27 +19,27 @@
         "deploy": "npx task deploy",
         "lint": "npx task lint",
         "pre": "npx task pre",
-        "setup": "nvm use && npm i && npx task setup",
+        "setup": "npm i && npx task setup",
         "start": "npx task start",
         "test": "npx task test"
     },
     "dependencies": {
-        "@swc/helpers": "^0.4.14",
-        "mixpanel-browser": "^2.45.0",
-        "module-composer": "^0.92.0"
+        "@swc/helpers": "^0.5.1",
+        "mixpanel-browser": "^2.47.0",
+        "module-composer": "^0.109.0"
     },
     "devDependencies": {
-        "cloc": "^2.10.0",
+        "cloc": "^2.11.0",
         "doctoc": "^2.2.1",
-        "ejs": "^3.1.8",
-        "eslint": "^8.29.0",
-        "eslint-plugin-import": "^2.26.0",
-        "husky": "^8.0.2",
-        "module-indexgen": "^0.21.0",
-        "npm-check-updates": "^16.4.3",
-        "parcel": "^2.8.0",
+        "ejs": "^3.1.9",
+        "eslint": "^8.40.0",
+        "eslint-plugin-import": "^2.27.5",
+        "husky": "^8.0.3",
+        "module-indexgen": "^0.27.0",
+        "npm-check-updates": "^16.10.12",
+        "parcel": "^2.8.3",
         "process": "^0.11.10",
-        "task-library": "^0.194.0",
+        "task-library": "^0.215.0",
         "testing": "file:./testing"
     },
     "targets": {
