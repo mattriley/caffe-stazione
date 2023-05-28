@@ -26,20 +26,20 @@
     "dependencies": {
         "@swc/helpers": "^0.5.1",
         "mixpanel-browser": "^2.47.0",
-        "module-composer": "^0.109.0"
+        "module-composer": "^0.117.0"
     },
     "devDependencies": {
         "cloc": "^2.11.0",
         "doctoc": "^2.2.1",
         "ejs": "^3.1.9",
-        "eslint": "^8.40.0",
+        "eslint": "^8.41.0",
         "eslint-plugin-import": "^2.27.5",
         "husky": "^8.0.3",
-        "module-indexgen": "^0.27.0",
+        "module-indexgen": "^0.33.0",
         "npm-check-updates": "^16.10.12",
-        "parcel": "^2.8.3",
+        "parcel": "^2.9.1",
         "process": "^0.11.10",
-        "task-library": "^0.215.0",
+        "task-library": "^0.216.0",
         "testing": "file:./testing"
     },
     "targets": {
