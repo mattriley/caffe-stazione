@@ -1,7 +1,6 @@
 const compose = require('./compose');
 
-const compositionName = 'Caffe Stazione Web Components';
-const composition = compose({ compositionName });
+const composition = compose({});
 const { webComponents } = composition.modules;
 customElements.define('stazione-header', webComponents.StazioneHeader);
 
