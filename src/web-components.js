@@ -1,7 +1,6 @@
 const compose = require('./compose');
 
-const composition = compose({});
-const { webComponents } = composition.modules;
+const { webComponents } = compose();
 customElements.define('stazione-header', webComponents.StazioneHeader);
 
 const fonts = document.createElement('link');

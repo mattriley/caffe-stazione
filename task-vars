@@ -1,14 +1,16 @@
 #!/bin/bash
 
+export NODE_VERSION="20.2.0"
+
 export WEB_HOST_NAME="caffestazione.com.au"
 export INDEX_HTML_DESCRIPTION="An Italian Caffe catering for all needs including breakfast and lunch options. Caffe Stazione's Pizza is genuine Italian style served by the slice and possibly the best in Melbourne. There are healthy, Gluten Free options and salads, not to mention a large cake and sweet display all filled with house made delicate cakes, sweets, pastries and biscuits."
 export PARCEL_OPTIONS="--target webComponents --target spa"
 export DIST_FLATTEN="true"
 
-export COV_BRANCHES="0"
-export COV_LINES="0"
-export COV_FUNCTIONS="0"
-export COV_STATEMENTS="0"
+export COV_BRANCHES=0
+export COV_LINES=0
+export COV_FUNCTIONS=0
+export COV_STATEMENTS=0
 
 # This project
 
